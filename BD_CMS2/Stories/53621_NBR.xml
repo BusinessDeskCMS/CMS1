@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--BusinessDesk NewsML-->
+<newsMessage xsi:schemaLocation="http://www.iptc.org/std/NAR/1.9/specification/NewsML-G2_2.8-spec-NewsItem-Power.xsd" standard="NewsML-G2" standardversion="2.8" conformance="power" lang="en-US" xmlns:xsi="http://iptc.org/std/nar/2006-10-01/" xmlns="http://iptc.org/std/nar/2006-10-01/">
+  <Header>
+    <Sent>2014-10-21 21:57:40</Sent>
+    <sender>BusinessDesk</sender>
+    <origin>BusinessDesk</origin>
+    <transmitId>20141021215740</transmitId>
+    <priority>5</priority>
+    <destination>All</destination>
+  </Header>
+  <itemSet>
+    <packageItem>
+      <itemRef residref="20141021215740" />
+    </packageItem>
+    <newsItem guid="BD-20141021215740" version="3" standard="NewsML-G2" standardversion="2.7">
+      <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_13.xml" />
+      <rightsInfo>
+        <copyrightHolder literal="" />
+        <copyrightNotice />
+      </rightsInfo>
+      <itemMeta>
+        <itemClass qcode="ninat:text" />
+        <provider literal="CL" />
+        <versionCreated>2014-10-21 21:57:40</versionCreated>
+        <embargoed></embargoed>
+        <ednote></ednote>
+        <pubStatus qcode="stat:usable" />
+      </itemMeta>
+      <contentMeta>
+        <urgency>5</urgency>
+        <keyword role="krole:index"></keyword>
+        <subject type="Topic">
+          <name></name>
+        </subject>
+      </contentMeta>
+      <contentSet>
+        <inlineXML contenttype="application/nitf+xml">
+          <nitf xsi:schemaLocation="http://www.iptc.org/std/NITF/3.5/specification/nitf-3-5.xsd" xmlns:xsi="http://iptc.org/std/NITF/2006-10-18/">
+            <head>
+              <title>Test Story from BusinessDesk for Tony: MARKET CLOSE: NZ shares extend gains; Contact, Trustpower gain, F&amp;P at record</title>
+            </head>
+            <body>
+              <body.head>
+                <byline>By<person>Staff Reporter</person><byttl>BusinessDesk</byttl></byline>
+                <abstract> </abstract>
+              </body.head>
+              <body.content><![CDATA[<p> By Suze Metherell </p><p> Oct. 21 (BusinessDesk) - New Zealand shares gained for a third day, paced by Contact Energy and TrustPower, as investors spooked by recent volatility sought high-yield stocks. Fisher & Paykel Healthcare Corp rose to a record. </p><p> The NZX 50 Index advanced 35.237 points, or 0.7 percent, to 5223.123. Within the index, 28 stocks rose, 12 fell and 10 were unchanged. Turnover was $140 million. </p><p> The benchmark index extended its recovery after a period of volatility saw the CBOE Vix Index, also known as Wall Street's fear gauge, spike to its highest level since 2012 last week, spilling over into stock markets around the world. Investors have since returned to equities, and have been chasing high yielding stocks as a shift in sentiment about when the US Federal Reserve will start raising interest rates made reliable dividends more attractive. </p><p> "Investors who have sat on the sidelines for a bit, they may have been scared out by the volatility, are putting a bit more money back into the market," said James Smalley, director at Hamilton Hindin Greene. "The yield side of things is relatively attractive as there's a lot more debate as to whether the US is going to raise rates soon." </p><p> Power companies, which are held for their reliable source of income, paced today's gains on the local market. Contact, the energy retailer and generator, advanced 1.5 percent to $6.07. TrustPower climbed 1.3 percent to $7.30. Genesis Energy, the state-controlled power company, increased 0.5 percent to $1.98. </p><p> "We're seeing Contact taking up the baton as the gentailer having a good day, on the back of MightyRiverPower and Genesis's gains the other day," Smalley said. </p><p> Spark New Zealand, formerly Telecom Corp and popular with offshore investors for its high yield and liquidity, rose 1.2 percent to $2.935. Vector, the Auckland power lines company, gained 1.2 percent to $7.30. </p><p> F&P Healthcare, the medical breathing apparatus exporter, advanced 1.7 percent to $5.33, a record close. The company has a September balance date and investors are expecting a good result, particularly given the recent fall in the New Zealand dollar, Smalley said. </p><p> Fletcher Building, New Zealand's largest listed company, fell 0.6 percent to $8.61. The building supplies and construction company told shareholders it is forecasting full-year operating earnings to rise as much as 11 percent, driven by anticipated recovery in the second half. Earnings before interest, tax and significant items are expected to be in the range of $650 million to $690 million, departing chairman Ralph Waters said in his final address to shareholders. That would be up from $624 million in the 2014 year. </p><p> Xero, the cloud-based accounting firm, extended its decline to be the benchmark index's worst performer on the day, falling 0.9 percent to $15.90, its lowest level since August last year. The stock has dropped 26 percent in the past month, as investors question the Wellington-based company's pace of growth in the US, where it is competing against incumbent Intuit. Xero wants a million customers worldwide, and is targeting growth in the US market where so far it has some 22,000 of its total 371,000 customers. </p><p> New Zealand Oil and Gas led the benchmark index higher, gaining 2.8 percent to 74 cents. </p><p> Outside the benchmark index, Cavalier Corp was unchanged at $1, after announcing Cavalier Wool Holdings, its joint venture with ACC and Direct Capital, will merge with New Zealand Wool Services International to make a wool scouring monopoly. Melbourne-based Lempriere, parent of WSI, will take the biggest stake in the new business at 45 percent, while Cavalier will water down its holding to 27.5 percent from 50 percent. </p><p> PGG Wrightson, the rural services firm controlled by China's Agria Corp, rose 3.6 percent to 43.5 cents after it said it expects to shrug off falling dairy prices and beat its strongest earnings result in several years in 2015 after an upbeat first quarter. </p><p> Hellaby Holdings, the diversified investment company, rose 0.3 percent to $2.93. The Auckland-based company has several potential acquisitions on the cards and is "optimistic that at least one will come to fruition during this financial year," chief executive John Williamson told Hellaby shareholders at its annual meeting according to speech notes. </p><p> Kirkcaldie & Stains, the upmarket Wellington department store, rose 0.6 percent to $1.80 after yesterday reporting an annual loss of $6.5 million, sinking back into the red after a series of write-downs, including the loss on the sale of its Harbour City Centre building, wiped out an operating profit in the year. </p><p> (BusinessDesk) </p>]]></body.content>
+            </body>
+          </nitf>
+        </inlineXML>
+      </contentSet>
+    </newsItem>
+  </itemSet>
+</newsMessage>

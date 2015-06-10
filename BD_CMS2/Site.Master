@@ -1,0 +1,150 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="BD_CMS2.SiteMaster" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%: Page.Title %> - BusinessDesk CMS</title>
+
+    <asp:PlaceHolder runat="server">
+        <%: Scripts.Render("~/bundles/modernizr") %>
+    </asp:PlaceHolder>
+    <webopt:BundleReference runat="server" Path="~/Content/css" />
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <asp:ContentPlaceHolder ID="HeaderContent" runat="server">
+    </asp:ContentPlaceHolder>
+    <script type="text/javascript">
+    var appInsights=window.appInsights||function(config){
+        function s(config){t[config]=function(){var i=arguments;t.queue.push(function(){t[config].apply(t,i)})}}var t={config:config},r=document,f=window,e="script",o=r.createElement(e),i,u;for(o.src=config.url||"//az416426.vo.msecnd.net/scripts/a/ai.0.js",r.getElementsByTagName(e)[0].parentNode.appendChild(o),t.cookie=r.cookie,t.queue=[],i=["Event","Exception","Metric","PageView","Trace"];i.length;)s("track"+i.pop());return config.disableExceptionTracking||(i="onerror",s("_"+i),u=f[i],f[i]=function(config,r,f,e,o){var s=u&&u(config,r,f,e,o);return s!==!0&&t["_"+i](config,r,f,e,o),s}),t
+    }({
+        instrumentationKey:"636d306e-c627-4571-8312-e46802754bfe"
+    });
+    
+    window.appInsights=appInsights;
+    appInsights.trackPageView();
+</script>
+</head>
+<body>
+    <form runat="server">
+        <asp:ScriptManager runat="server">
+            <Scripts>
+                <%--To learn more about bundling scripts in ScriptManager see http://go.microsoft.com/fwlink/?LinkID=301884 --%>
+                <%--Framework Scripts--%>
+                <asp:ScriptReference Name="MsAjaxBundle" />
+                <asp:ScriptReference Name="jquery" />
+                <asp:ScriptReference Name="bootstrap" />
+                <asp:ScriptReference Name="respond" />
+                <asp:ScriptReference Name="WebForms.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebForms.js" />
+                <asp:ScriptReference Name="WebUIValidation.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebUIValidation.js" />
+                <asp:ScriptReference Name="MenuStandards.js" Assembly="System.Web" Path="~/Scripts/WebForms/MenuStandards.js" />
+                <asp:ScriptReference Name="GridView.js" Assembly="System.Web" Path="~/Scripts/WebForms/GridView.js" />
+                <asp:ScriptReference Name="DetailsView.js" Assembly="System.Web" Path="~/Scripts/WebForms/DetailsView.js" />
+                <asp:ScriptReference Name="TreeView.js" Assembly="System.Web" Path="~/Scripts/WebForms/TreeView.js" />
+                <asp:ScriptReference Name="WebParts.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebParts.js" />
+                <asp:ScriptReference Name="Focus.js" Assembly="System.Web" Path="~/Scripts/WebForms/Focus.js" />
+                <asp:ScriptReference Name="WebFormsBundle" />
+                <%--Site Scripts--%>
+            </Scripts>
+        </asp:ScriptManager>
+
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" runat="server" href="~/">Home</a>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a runat="server" href="~/Dashboard1.aspx">Dashboard</a></li>
+                        <li><a runat="server" href="~/About">About</a></li>
+
+                        <li><a runat="server" href="~/calendar">Calendar</a></li>
+                        <li><a runat="server" href="~/cmscontrol">Control</a></li>
+                        <li><a runat="server" href="~/Search.aspx">Search</a></li>
+                        <li><a runat="server" href="~/taxo1">Taxonomy</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Customer <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a runat="server" href="~/Customer">Customers</a></li>
+                                <li><a runat="server" href="~/ContactDetails1">Email Subscribers</a></li>
+                                  <li><a runat="server" href="~/emailBulkReset">Email Bulk Reset</a></li>
+                                <li><a runat="server" href="~/ContactsBD">BusinessDesk Contacts</a></li>
+                                <li class="divider"></li>
+                                <li><a runat="server" href="~/CustomerMessage1">Customer Message Control</a></li>
+                                <li><a runat="server" href="~/Message_Bulk_Reset">Message Bulk Reset</a></li>
+
+                                <li><a runat="server" href="~/Message_Test">Message Test</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Tickers <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a runat="server" href="~/anzsx">NZX</a></li>
+                                <li><a runat="server" href="~/asx">ASX</a></li>
+                                <%--  <li class="divider"></li>      --%>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Messaging <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a runat="server" href="~/MessageLog">Message Log</a></li>
+                                <li><a runat="server" href="~/MessageResend">Resend a Story</a></li>
+                                <li class="divider"></li>
+                                <li><a runat="server" href="~/ErrorLog">Error Log</a></li>
+                                <li><a runat="server" href="~/Test_Error">Error Test Reset</a></li>
+                            </ul>
+                        </li>
+                        <%--<li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Testing <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a runat="server" href="~/Test_FTP">FTP</a></li>
+                                <li><a runat="server" href="~/Test_SFTP">SFTP</a></li>
+                                <li><a runat="server" href="~/Test_ServerMapPath">Map Path</a></li>
+                                <li class="divider"></li>
+                                <li><a runat="server" href="~/ErrorLog">Error Log</a></li>
+
+                            </ul>
+                        </li>--%>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Admin <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a runat="server" id="AdminLink" visible="false" href="~/Admin/AddUser">Add New User</a></li>                                
+                            </ul>
+                        </li>
+
+                    </ul>
+                    <asp:LoginView runat="server" ViewStateMode="Disabled">
+                        <AnonymousTemplate>
+                            <ul class="nav navbar-nav navbar-right">                                
+                                <li><a runat="server" href="~/Account/Login">Log in</a></li>
+                            </ul>
+                        </AnonymousTemplate>
+                        <LoggedInTemplate>
+                            <ul class="nav navbar-nav navbar-right">
+                                <li><a runat="server" href="~/Account/Manage" title="Manage your account">Hello, <%: Context.User.Identity.GetUserName()  %> !</a></li>
+                                <li>
+                                    <asp:LoginStatus runat="server" LogoutAction="Redirect" LogoutText="Log off" LogoutPageUrl="~/" OnLoggingOut="Unnamed_LoggingOut" />
+                                </li>
+                            </ul>
+                        </LoggedInTemplate>
+                    </asp:LoginView>
+                </div>
+            </div>
+        </div>
+        <div class="container body-content">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+            <hr />
+            <footer>
+                <p>&copy; <%: DateTime.Now.Year %> - Content Ltd, Wellington, New Zealand</p>
+            </footer>
+        </div>
+    </form>
+</body>
+</html>

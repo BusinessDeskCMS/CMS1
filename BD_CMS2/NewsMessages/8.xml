@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--BusinessDesk NewsML-->
+<newsMessage xsi:schemaLocation="http://www.iptc.org/std/NAR/1.9/specification/NewsML-G2_2.8-spec-NewsItem-Power.xsd" standard="NewsML-G2" standardversion="2.8" conformance="power" lang="en-US" xmlns:xsi="http://iptc.org/std/nar/2006-10-01/" xmlns="http://iptc.org/std/nar/2006-10-01/">
+  <Header>
+    <Sent>2013-11-27 23:24:36</Sent>
+    <sender>BusinessDesk</sender>
+    <origin>BusinessDesk</origin>
+    <transmitId>20131127232410</transmitId>
+    <priority>5</priority>
+    <destination>All</destination>
+  </Header>
+  <itemSet>
+    <packageItem>
+      <itemRef residref="20131127232410" />
+    </packageItem>
+    <newsItem guid="BD-20131127232410" version="3" standard="NewsML-G2" standardversion="2.7">
+      <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_13.xml" />
+      <rightsInfo>
+        <copyrightHolder literal="" />
+        <copyrightNotice />
+      </rightsInfo>
+      <itemMeta>
+        <itemClass qcode="ninat:text" />
+        <provider literal="CL" />
+        <versionCreated>2013-11-27 23:24:36</versionCreated>
+        <embargoed></embargoed>
+        <ednote></ednote>
+        <pubStatus qcode="stat:usable" />
+      </itemMeta>
+      <contentMeta>
+        <urgency>5</urgency>
+        <keyword role="krole:index"></keyword>
+        <subject type="Topic">
+          <name></name>
+        </subject>
+      </contentMeta>
+      <contentSet>
+        <inlineXML contenttype="application/nitf+xml">
+          <nitf xsi:schemaLocation="http://www.iptc.org/std/NITF/3.5/specification/nitf-3-5.xsd" xmlns:xsi="http://iptc.org/std/NITF/2006-10-18/">
+            <head>
+              <title>Thermo Fisher applies to acquire Life Technologies in US$13.6 bln global merger </title>
+            </head>
+            <body>
+              <body.head>
+                <byline>By<person>Staff Reporter</person><byttl>BusinessDesk</byttl></byline>
+                <abstract> </abstract>
+              </body.head>
+              <body.content>
+                <p>&lt;div&gt;&lt;br /&gt;</p>
+                <p>Nov. 8 (BusinessDesk) - Thermo Fisher Scientific has applied to the local regulator to acquire Life Technologies Corp as part of a US$13.6 billion global merger of the life sciences firms.&lt;br /&gt;</p>
+                <p>&lt;br /&gt;</p>
+                <p>The two companies produce a range of products for scientific applications, and have an overlap in cell culture, transplant diagnostics, protein and molecular biology, the Commerce Commission said in a statement. The regulator has to be satisfied the merger would be unlikely to substantially lessen competition in the market.&lt;br /&gt;</p>
+                <p>&lt;br /&gt;</p>
+                <p>&amp;ldquo;A key product in which the parties overlap is the production of foetal bovine serum which is used in cell cultures to stimulate cell reproduction,&amp;rdquo; the regulator said. &amp;ldquo;Foetal bovine serum is used by scientific and pharmaceutical customers for research, and the manufacture of human and veterinary vaccines and drugs.&amp;rdquo;&lt;br /&gt;</p>
+                <p>&lt;br /&gt;</p>
+                <p>New York Stock Exchange-listed Thermo Fisher made its bid for California-based Life Technologies in April, and the target company&amp;rsquo;s shareholders approved the deal in August, with the merger expected to close early next year.&lt;br /&gt;</p>
+                <p>&lt;br /&gt;</p>
+                <p>Thermo Fisher&amp;rsquo;s New Zealand unit made a net profit of $1.24 million on sales of $48.6 million in calendar 2012, a smaller margin than Life Technologies, whose local business reported profit of $3.2 million on sales of $46.3 million in the same period, according to financial statements lodged with the Companies Office.&lt;br /&gt;</p>
+                <p>&lt;br /&gt;</p>
+                <p>(BusinessDesk)&lt;/div&gt;</p>
+              </body.content>
+            </body>
+          </nitf>
+        </inlineXML>
+      </contentSet>
+    </newsItem>
+  </itemSet>
+</newsMessage>

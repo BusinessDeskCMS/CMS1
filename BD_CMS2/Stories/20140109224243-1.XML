@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--BusinessDesk NewsML-->
+<newsMessage xsi:schemaLocation="http://www.iptc.org/std/NAR/1.9/specification/NewsML-G2_2.8-spec-NewsItem-Power.xsd" standard="NewsML-G2" standardversion="2.8" conformance="power" lang="en-US" xmlns:xsi="http://iptc.org/std/nar/2006-10-01/" xmlns="http://iptc.org/std/nar/2006-10-01/">
+  <Header>
+    <Sent>2014-01-09 22:42:43</Sent>
+    <sender>BusinessDesk</sender>
+    <origin>BusinessDesk</origin>
+    <transmitId>20140109224243</transmitId>
+    <priority>5</priority>
+    <destination>All</destination>
+  </Header>
+  <itemSet>
+    <packageItem>
+      <itemRef residref="20140109224243" />
+    </packageItem>
+    <newsItem guid="BD-20140109224243" version="3" standard="NewsML-G2" standardversion="2.7">
+      <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_13.xml" />
+      <rightsInfo>
+        <copyrightHolder literal="" />
+        <copyrightNotice />
+      </rightsInfo>
+      <itemMeta>
+        <itemClass qcode="ninat:text" />
+        <provider literal="CL" />
+        <versionCreated>20140109224243</versionCreated>
+        <embargoed></embargoed>
+        <ednote></ednote>
+        <pubStatus qcode="stat:usable" />
+      </itemMeta>
+      <contentMeta>
+        <urgency>5</urgency>
+        <keyword role="krole:index"></keyword>
+        <subject type="Topic">
+          <name></name>
+        </subject>
+      </contentMeta>
+      <contentSet>
+        <inlineXML contenttype="application/nitf+xml">
+          <nitf xsi:schemaLocation="http://www.iptc.org/std/NITF/3.5/specification/nitf-3-5.xsd" xmlns:xsi="http://iptc.org/std/NITF/2006-10-18/">
+            <head>
+              <title>BusinessDesk Test - attn Simon Young</title>
+            </head>
+            <body>
+              <body.head>
+                <byline>By<person>Staff Reporter</person><byttl>BusinessDesk</byttl></byline>
+                <abstract> </abstract>
+              </body.head>
+              <body.content>
+                <p>By Pattrick Smellie</p>
+                <p>Jan. 6 (BusinessDesk) - &lt;p&gt;attention Simon Young, pls email Mike Peters when received.&lt;/p&gt;</p>
+                <p>(BusinessDesk)</p>
+              </body.content>
+            </body>
+          </nitf>
+        </inlineXML>
+      </contentSet>
+    </newsItem>
+  </itemSet>
+</newsMessage>
